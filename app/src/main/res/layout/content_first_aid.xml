@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.basics.svb.goldenhourhelp.FirstAidActivity"
+    tools:showIn="@layout/activity_first_aid">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#323232"
+            android:text="1. Tips for CPR\n
+             Do not check a pulse for alive or dead, simply check breathing \n
+            (if you drown, your pulse will continue for minutes).\n Move the patient onto a flat surface if possible.\n
+            \n Check airway and breathing for 10 seconds. Use the compression only approach; \n
+            if the patient is not breathing, call an ambulance and start compression at a rate of 120 per minutes.\n
+            Continue until help arrives."
+            android:textColor="#e5e5e5"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#323232"
+            android:text="2. Tips for Cuts and Grazes\n
+             Use direct pressure to stop the bleeding. \n
+           If the bleeding continues after 10 minutes of pressure, seek additional medical attention.\n
+Clean the graze with saline or water, do not use alcohol wipes or soap in an open wound.\n
+Use a wound wipe like iodine to stop infection and dress with a non-stick dressing..\n"
+            android:textColor="#e5e5e5"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#323232"
+            android:text="3. Tips for Burns\n
+
+When treating burns, start by cooling the burn with running water for up to 20 minutes.\n
+Don’t use ice or freezing cold water.\n
+If the burn blisters and breaks, use cling wrap to cover the burn (after cooling) and think about calling an ambulance on 000\n"
+            android:textColor="#e5e5e5"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#323232"
+            android:text="4. Tips for Bee Stings\n
+
+Remove the stinger by scratching sideways over the skin.\n
+Apply a cold pack or cloth to reduce swelling.\n
+Use a cream or Stingoes as this can help minimise pain and itching.\n
+Check for allergic reactions.\n"
+            android:textColor="#e5e5e5"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#323232"
+            android:text="5. Tips for Sprains and Strains\n
+
+Use the RICER approach:\n
+Rest the patient.
+Ice: use ice on the area for 20 minutes.
+Compression: apply pressure on the area with a compression bandage or cling wrap.
+Elevate the injured area.
+Refer the patient to medical help if the injured area continues to hurt after 60 minutes."
+            android:textColor="#e5e5e5"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
